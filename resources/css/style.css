@@ -20,6 +20,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-text-box{
@@ -55,7 +56,7 @@ h2::after{
     display: block;
     height: 2px;
     background-color: #ee8814;
-    content: ".";
+    content: "";
     width: 200px;
     margin: 0 auto;
     margin-top: 20px;
@@ -264,10 +265,63 @@ section .section-meals{
 .box img{
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 
 }
 .box .gulshan{
-    margin-bottom: 26.11px;
+    margin-bottom: 47.11px;
+}
+
+.city-feature{
+    margin-bottom: 10px;
+}
+
+
+
+.icon-small{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    color: #ee8814;
+    font-size: 120%;
+    line-height: 150%;
+    vertical-align:center;
+    margin-top: -5px;
+    margin-right: 10px;
+
+}
+
+.section-testi{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.699)), url("../img/customer.jpg");
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 
