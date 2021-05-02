@@ -220,7 +220,7 @@ section .section-meals{
     width: 70%;
 }
 .section-steps{
-    background-color: rgba(207, 145, 129, 0.349);
+    background-color: #cf918159;
     padding-top: 50px;
 }
 .steps-box:first-child{
@@ -285,7 +285,7 @@ section .section-meals{
     color: #ee8814;
     font-size: 120%;
     line-height: 150%;
-    vertical-align:center;
+    vertical-align:middle;
     margin-top: -5px;
     margin-right: 10px;
 
@@ -334,6 +334,56 @@ cite img{
     clear: both;
     height: 0;
     visibility: hidden;
+}
+
+.section-plans{
+    background-color: #cf918159;
+    padding-top: 30px;
+}
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #cf918159;
+}
+
+.plan-box div:first-child{
+    background-color:#d6a09336 ;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #ee8814;
+
+
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal{
+    font-size: 80%;
+}
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0;
 }
 
 
