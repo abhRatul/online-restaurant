@@ -57,7 +57,7 @@ h2::after{
     height: 2px;
     background-color: #ee8814;
     content: "";
-    width: 200px;
+    width: 50px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -74,7 +74,8 @@ h3{
     text-align: justify;
 }
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -96,7 +97,9 @@ h3{
 }
 
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: #d1760f;
 }
 
@@ -274,6 +277,22 @@ section .section-meals{
 
 .city-feature{
     margin-bottom: 10px;
+
+}
+.city-feature a:visited,
+.city-feature a:link{
+    text-decoration: none;
+    border-bottom: 1px solid #ee8814;
+    color: #000;
+    transition: color .2s;
+}
+
+
+.city-feature a:hover,
+.city-feature a:active{
+    border-bottom: none;
+    color: #ee8814;
+    font-weight: 400;
 }
 
 
@@ -384,6 +403,129 @@ cite img{
 
 .plan-box ul li{
     padding: 5px 0;
+}
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+}
+
+textarea{
+    height: 100px;
+}
+input[type=submit]{
+    border: 1px solid #ee8814;
+    background-color: #ee8814;
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+
+.section-form{
+    padding-top: 30px;
+}
+
+
+
+footer{
+    background-color: #333;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.footer-nav li{
+    list-style: none;
+    float: left;
+}
+
+.social-links li{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:first-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #7a7474;
+    
+}
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 180%;
+}
+
+.social-links .fb:hover,
+.social-links .fb:active{
+    color: #3b5999;
+}
+
+.social-links .fb,
+.social-links .tw,
+.social-links .ggl,
+.social-links .insta{
+    transition: color .5s;
+}
+
+
+
+
+.social-links .tw:hover,
+.social-links .tw:active{
+    color: #55acee;
+}
+
+.social-links .ggl:hover,
+.social-links .ggl:active{
+    color: #dd4b39;
+}
+
+.social-links .insta:hover,
+.social-links .insta:active{
+    color: #e4405f;
+}
+
+
+
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 80%;
+    margin-top: 20px;
+}
+
+*:focus{
+    outline: none;
 }
 
 
