@@ -1,0 +1,60 @@
+@media only screen and (max-width:1200px) {
+    .hero-text-box{
+        max-width: 100%;
+        padding: 0 2%;
+    
+    } 
+    .row{padding: 0 2%;}
+}
+
+
+@media only screen and (max-width:1023px) {
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+
+    .long-copy{
+        width: 90%;
+        margin-left: 5%;
+    
+    }
+    .mobile {
+        width: 90%;
+    }
+    .works-step {
+        margin-bottom: 50px;
+    }
+    .steps-box:last-child {
+        padding-left: 3%;
+        margin-top: 120px;
+    }
+
+    .icon-small {
+        width: 30px;
+    }
+
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .full-btn:link, .full-btn:visited {
+        margin-bottom: 10px;
+    }
+
+    .hero-text-box{
+        font-size: 80%;
+    
+    } 
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    
+}
+
+@media only screen and (max-width:480px) {
+    
+}
