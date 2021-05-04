@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html,body{
     background-color: #fff;
     color: rgb(44, 42, 42);
     font-family: 'Lato','Ariel',sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 .row{
     max-width: 1140px;
@@ -278,6 +279,10 @@ section .section-meals{
 .city-feature{
     margin-bottom: 10px;
 
+}
+.section-cities{
+    margin-top: 40px;
+    margin-bottom: 90px;
 }
 .city-feature a:visited,
 .city-feature a:link{
